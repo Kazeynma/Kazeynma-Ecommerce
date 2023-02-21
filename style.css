@@ -1,7 +1,12 @@
 header {
-    background-color: #1c5c23;
+    background-color: #6A645A;
     color: white;
     padding: 10px
+}
+
+.title {
+    font-family: "cursive";
+    font-size: 50px;
 }
 
 nav {
@@ -30,7 +35,7 @@ li {
     align-items: center;
     width: 40%;
     color: white;
-    background-color: #67d672;
+    background-color: #E3CD8B
 }
 
 .catch-phrase {
@@ -59,10 +64,16 @@ li {
     width: 400px;
     height: 400px;
     text-align: center;
-    margin: 10px
+    margin: 15px
 }
 
 img {
     width: 300px;
     height: 300px
+}
+
+footer {
+    background-color: #5D7052;
+    color: white;
+    padding: 10px
 }
