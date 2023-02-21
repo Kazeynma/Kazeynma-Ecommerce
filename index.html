@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Ecommerce</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--utilisation de la balise header pour créer une entête-->
+    <header>
         <h1>Bienvenue</h1>
         <h3>N'hésitez pas à soutenir nos artistes !</h3>
-
-        <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tsunami_by_hokusai_19th_century.jpg">
-            <p>Nos produits rien que pour vous</p>
+        <nav>
+            <li>Home</li>
+            <li>Tous nos produits</li>
+            <li>Soldes</li>
+            <li>Panier</li>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <p class="catch-phrase">Avec nous, vous pouvez vous sentir chez vous</p>
+            <h1>Découvrez nos plantes tropicales</h1>
+            <h3 class="catch-phrase">A l'intérieur ou à l'extérieur, c'est vous qui décidez</h3>
+            <button class="sidebar-link">Retrouvez nos inspirations ici</button>
         </div>
-    </body>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="/assets/aloeVera.jpg" alt="aloe vera">
+                <h3>Aloe Vera</h3>
+                <p>Prix</p>
+            </div>
+            <div class="card">
+                <img src="assets/areca.jpg" alt="areca">
+                <h3>Areca</h3>
+                <p>Prix</p>
+            </div>
+            <div class="card">
+                <img src="/assets/ficus_giseng.jpg" alt="ficus giseng">
+                <h3>Ficus Giseng</h3>
+                <p>Prix</p>
+            </div>
+            <div class="card">
+                <img src="/assets/lyrata.jpg" alt="lyrata">
+                <h3>Ficus Lyrata</h3>
+                <p>Prix</p>
+            </div>
+            <div class="card">
+                <img src="/assets//monstera.jpg" alt="monstera">
+                <h3>Monstera</h3>
+                <p>Prix</p>
+            </div>
+            <div class="card">
+                <img src="/assets/pothos.jpg" alt="pothos">
+                <h3>Pothos</h3>
+                <p>Prix</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
