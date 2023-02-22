@@ -3,18 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Ecommerce</title>
+    <title>Lorant | Acceuil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--utilisation de la balise header pour créer une entête-->
     <header>
-        <h1 class="title">Lorant</h1>
-        <h1>Bienvenue</h1>
+        <div class="logo">
+            <h1 class="title">Lorant</h1>
+        </div>
         <nav>
-            <li>Home</li>
-            <li>Tous nos produits</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/view/productPage.html">Tous nos produits</a></li>
             <li>Soldes</li>
             <li>Panier</li>
         </nav>
@@ -61,8 +62,94 @@
             </div>
         </div>
     </div>
+    <div class="second-container">
+        <div class="second-sidebar">
+            <h2 class="sidebar-text">Nous avons aussi un large choix de fleurs qui pourrons vous plaire</h2>
+            <div class="mini-card-container">
+                <div class="mini-card">
+                    <img class="mini-image" src="/assets/roses.jpeg" alt="roses">
+                    <p>Roses</p>
+                </div>
+                <div class="mini-card">
+                    <img class="mini-image" src="/assets/lilas.jpg" alt="pothos">
+                    <p>Lilas</p>
+                </div>
+                <div class="mini-card">
+                    <img class="mini-image" src="/assets/orchidée.jpg" alt="pothos">
+                    <p>Orchidée</p>
+                </div>
+                <div class="mini-card">
+                    <img class="mini-image" src="/assets/bouquet_fleur.jpg" alt="pothos">
+                    <p>Bouquet</p>
+                </div>
+            </div>
+            <button class="sidebar-link">Découvrez nos fleurs ici</button>
+            <h2 class="sidebar-text">...avec leur variante en fleurs séchées</h2>
+            <div class="mini-card-container">
+                <div class="mini-card">
+                    <img class="mini-image" src="/assets/roses_sechee.jpg" alt="roses">
+                    <p>Roses</p>
+                </div>
+                <div class="mini-card">
+                    <img class="mini-image" src="/assets/lilas_sechee.jpg" alt="pothos">
+                    <p>Lilas</p>
+                </div>
+                <div class="mini-card">
+                    <img class="mini-image" src="/assets/fleur_pampa.jpg" alt="pothos">
+                    <p>Fleur de pampa</p>
+                </div>
+                <div class="mini-card">
+                    <img class="mini-image" src="/assets/bouquet_sechee.jpg" alt="pothos">
+                    <p>Bouquet seché</p>
+                </div>
+            </div>
+            <button class="sidebar-link">Découvrez nos fleurs séchées ici</button>
+
+        </div>
+        <div class="second-sidebar">
+            <h3>Qu'est-ce que vous pouvez faire avec des fleurs ?</h3>
+            <section>
+                <img src="/assets/Blooming-cuate.svg">
+                <p>Les offrir ou simplement pour vous faire plaisir.</p>
+
+                <p>Certaines fleurs sont également comestible. Retrouvez toute la catégorie de fleurs comestible ici :
+                    <br>
+                    Nous proposons également des recettes !
+                </p>
+            </section>
+        </div>
+    </div>
     <footer>
-        <p>ceci est un footer</p>
+        <h1 class="title-footer">Lorant</h1>
+        <div class="content-footer">
+            <section class="footer-section">
+                <p class="title-column">Rejoingnez nous</p>
+                <img class="icon" src="/assets/instagram.svg">
+                <img class="icon" src="/assets/facebook.svg">
+                <img class="icon" src="/assets/twitter.svg">
+            </section>
+            <section class="footer-section">
+                <p class="title-column">Aide</p>
+                <p>Service client</p>
+                <p>Détails de livraison</p>
+                <p>Termes et conditions</p>
+                <p>Politique de confidentialité</p>
+            </section>
+            <section class="footer-section">
+                <p class="title-column">Notre entreprise</p>
+                <p>Nos locaux</p>
+                <p>A propos de nous</p>
+                <p>Notre équipe</p>
+                <p>Nos collaborateurs</p>
+            </section>
+            <section class="footer-section">
+                <p class="title-column">Inscrivez vous à notre Newsletter</p>
+                <div class="newsletter">
+                    <input type="text" placeholder="votre email" class="newsletter-input">
+                    <button class="newsletter-button">Rejoindre</button>
+                </div>
+            </section>
+        </div>
     </footer>
 </body>
 
