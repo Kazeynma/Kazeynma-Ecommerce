@@ -32,10 +32,23 @@ a {
 /*Content*/
 .container {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-container {
     display: flex
+}
+
+.button-up {
+    align-self: flex-end;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    position: fixed;
+    background-color: #E3CD8B;
 }
 
 .card {

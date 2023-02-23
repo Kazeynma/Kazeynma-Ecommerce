@@ -23,3 +23,9 @@ Elle prends en paramètres :
 
 On peut donner du style au container mais également aux items à l'intérieur du container.
 Par exmeple, on a les paramètres : `flex-shrink` ou `flex-grow` qui influence sur la taille des items les un par rapport aux autres.
+- flex-grow : peut être utilisé pour que l'item prenne toute la place 
+```css
+    .items {
+        flex-grow : 1;
+    }
+```
