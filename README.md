@@ -29,3 +29,20 @@ Par exmeple, on a les paramètres : `flex-shrink` ou `flex-grow` qui influence s
         flex-grow : 1;
     }
 ```
+
+# Déploiement du site internet 
+## GitHub Pages
+Pour déployer son site avec GitHub Pages, il faut aller dans son répertoire Github puis aller dans `paramètres`.
+Ensuite on va dans l'onglet `Pages` et on choisit de `déployer depuis la branche` ensuite on choisi la branche l'on veut déployer et voilà !
+
+Lien du site : https://kazeynma.github.io/Kazeynma-Ecommerce/
+
+
+## Vercel 
+Il suffit d'aller sur le site internet de Vercel : https://vercel.com/
+
+Ensuite on se connecte avec son compte Github.
+- Lorsque nous sommes connectés, Vercel nous propose d'installer Vercel sur son Github.
+- Ensuite on choisi le répertoire que l'on veut déployer, on le configure un peu et voilà !
+
+Lien du site : https://lorant.vercel.app/
